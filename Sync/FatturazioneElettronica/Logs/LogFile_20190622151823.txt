@@ -1,0 +1,11 @@
+Log relativo al giorno 22/06/2019 15:18:23
+22/06/2019 15:18:23 : System.IO.FileLoadException: L'assembly in modalità mista è compilato in base alla versione 'v2.0.50727' del runtime e non può essere caricato nel runtime 4.0 senza ulteriori informazioni di configurazione.
+   in Dylog.WebTec.WebTecManager.Login(String username, String password)
+   in RandomResearch.FatturazioneElettronica.Intermediari.DylogWebTec.OpenConnection() in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Intermediari\DylogWebTec\DylogWebTec.cs:riga 74
+   in RandomResearch.FatturazioneElettronica.Management.Manage.ApriConnessioneIntermediarioInvio(Int32 idConfigurazione) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\Manage.cs:riga 156
+   in RandomResearch.BrainTeamFatturaElettronica.FatturazioneElettronicaWindow.btnInvioFatture_PressioneTasto(Object sender, RoutedEventArgs e, String testo, Object obj) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\BrainTeamFatturaElettronica\FatturazioneElettronicaWindow.xaml.cs:riga 313
+22/06/2019 15:18:49 : System.IO.FileLoadException: L'assembly in modalità mista è compilato in base alla versione 'v2.0.50727' del runtime e non può essere caricato nel runtime 4.0 senza ulteriori informazioni di configurazione.
+   in Dylog.WebTec.WebTecManager.Login(String username, String password)
+   in RandomResearch.FatturazioneElettronica.Intermediari.DylogWebTec.OpenConnection() in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Intermediari\DylogWebTec\DylogWebTec.cs:riga 74
+   in RandomResearch.FatturazioneElettronica.Management.Manage.ApriConnessioneIntermediarioInvio(Int32 idConfigurazione) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\Manage.cs:riga 156
+   in RandomResearch.BrainTeamFatturaElettronica.FatturazioneElettronicaWindow.btnInvioFatture_PressioneTasto(Object sender, RoutedEventArgs e, String testo, Object obj) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\BrainTeamFatturaElettronica\FatturazioneElettronicaWindow.xaml.cs:riga 313

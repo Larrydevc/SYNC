@@ -1,0 +1,6 @@
+Log relativo al giorno 22/06/2019 15:02:46
+22/06/2019 15:02:46 : System.Exception: La fattura e stata gia inviata due volte
+   in RandomResearch.FatturazioneElettronica.LocalDatabase.DB.InsertFatturaAttiva(FatturaAttivaEntity fatturaAttiva) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.LocalDatabase\DB.cs:riga 631
+   in RandomResearch.FatturazioneElettronica.Management.Manage.InvioFattura(Int32 idConfigurazione, FatturaHeader testataFattura) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\Manage.cs:riga 230
+22/06/2019 15:02:54 : La fattura Fattura 37/2019 del 2019-04-01 DAPHNE GROUP SRL 1601,72 e stata impostata come da Inviare
+22/06/2019 15:02:57 : La fattura Fattura 37/2019 del 2019-04-01 DAPHNE GROUP SRL 1601,72 e stata impostata come da Inviare

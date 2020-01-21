@@ -1,0 +1,5 @@
+Log relativo al giorno 22/06/2019 14:26:55
+22/06/2019 14:26:55 : System.NotImplementedException: Operazione o metodo non implementato.
+   in RandomResearch.FatturazioneElettronica.Management.ManagementTypes.XMLFileManagement.GetAnagraficaFattura(String identificativoFattura) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\ManagementTypes\XMLFileManagement.cs:riga 187
+   in RandomResearch.FatturazioneElettronica.Management.Manage.GetAnagrafica(Int32 idConfigurazione, String identificativoFattura) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\Manage.cs:riga 149
+   in RandomResearch.BrainTeamFatturaElettronica.FatturazioneElettronicaWindow.MenuFatturaDaInviareModificaAnagrafica_Click(Object sender, RoutedEventArgs e) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\BrainTeamFatturaElettronica\FatturazioneElettronicaWindow.xaml.cs:riga 413

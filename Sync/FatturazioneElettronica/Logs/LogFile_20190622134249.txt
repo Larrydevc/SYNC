@@ -1,0 +1,14 @@
+Log relativo al giorno 22/06/2019 13:42:49
+22/06/2019 13:42:49 : System.InvalidOperationException: Errore nel documento XML (0, 0). ---> System.Xml.XmlException: Elemento radice mancante.
+   in System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   in System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   in System.Xml.XmlTextReaderImpl.Read()
+   in System.Xml.XmlTextReader.Read()
+   in System.Xml.XmlReader.MoveToContent()
+   in Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderFatturaElettronicaType.Read42_FatturaElettronica()
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   in System.Xml.Serialization.XmlSerializer.Deserialize(Stream stream)
+   in RandomResearch.FatturazioneElettronica.Management.ManagementTypes.XMLFileManagement.GetTestateFattureDaInviare(DateTime dataFinoAl) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\ManagementTypes\XMLFileManagement.cs:riga 71
+   in RandomResearch.FatturazioneElettronica.Management.Manage.GetTestateFattureDaInviare(Int32 idConfigurazione, DateTime dataFinoAl) in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\FatturazioneElettronica.Management\Manage.cs:riga 161
+   in RandomResearch.BrainTeamFatturaElettronica.FatturazioneElettronicaWindow.<RefreshFattureInvio>b__15_0() in F:\PROJECTS\OctopusBackOffice\BackOfficeLibs\FatturazioneElettronica\BrainTeamFatturaElettronica\FatturazioneElettronicaWindow.xaml.cs:riga 377
